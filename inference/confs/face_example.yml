@@ -52,7 +52,7 @@ use_ddim: false
 latex_name: RePaint
 method_name: Repaint
 image_size: 256
-model_path: /root/autodl-tmp/models_diffusion_SegFormer/model200000.pt
+model_path: TBC
 name: ArtiFusion_concate
 inpa_inj_sched_prev: true
 n_jobs: 1
@@ -67,8 +67,8 @@ data:
   eval:
     paper_face_mask:
       mask_loader: true
-      gt_path: "/root/autodl-tmp/a_diffusion_dataset/100_trainA"
-      mask_path: "/root/autodl-tmp/a_diffusion_dataset/100_trainA_label"
+      gt_path: TBC
+      mask_path: TBC
       image_size: 256
       class_cond: false
       deterministic: true
@@ -81,7 +81,7 @@ data:
       offset: 0
       max_len: 500
       paths:
-        srs: /root/autodl-tmp/a_diffusion_dataset/100_trainA_predicted_SegFormer
-        lrs: /root/autodl-tmp/a_diffusion_dataset/notuse1
-        gts: /root/autodl-tmp/a_diffusion_dataset/notuse2
-        gt_keep_masks: /root/autodl-tmp/a_diffusion_dataset/notuse3
+        srs: TBC
+        lrs: TBC
+        gts: TBC
+        gt_keep_masks: TBC
