@@ -3,8 +3,7 @@ import inspect
 
 from . import gaussian_diffusion as gd
 from .respace import SpacedDiffusion, space_timesteps
-from .unet import SuperResModel, UNetModel
-from .swinunet import SwinUNetModel
+from .unet import SuperResModel
 from .SegFormer import Segformer
 NUM_CLASSES = 1000
 
